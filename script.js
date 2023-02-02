@@ -37,13 +37,10 @@ console.log(myCurrentjob);
 
 // Number 
 let age=21;
-
 // String
 let name='sakthi';
-
 // Boolean
 let fullage=true;
-
 // Undefined
 // Null
 // Symbol
