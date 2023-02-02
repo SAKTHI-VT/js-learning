@@ -54,5 +54,5 @@ console.log(typeof 23);
 console.log(typeof true);
 console.log(typeof 2.15);
 
-abc='yes';
-console.log
+// abc='yes';
+// console.log(abc);
