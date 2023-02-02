@@ -45,3 +45,14 @@ let fullage=true;
 // Null
 // Symbol
 // BigInt
+
+let abc=true;
+console.log(abc);
+// typeof to find the datatype
+console.log(typeof 'sakthi');
+console.log(typeof 23);
+console.log(typeof true);
+console.log(typeof 2.15);
+
+abc='yes';
+console.log
