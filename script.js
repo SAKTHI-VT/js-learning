@@ -85,3 +85,16 @@ const thiru = current-1973;
 console.log(sakthi,thiru);
 
 console.log(sakthi *2 , thiru/10, 2**3);
+
+// ASSIGNMENT OPERATORS
+let x=10+4; //14
+x+=10; // x=x+10 => 24
+x*=4; // x=x*4 => 96
+x++;
+x--;
+console.log(x);
+
+// COMPARISON OPERATORS
+console.log(sakthi>thiru);
+console.log(sakthi<thiru);
+console.log(sakthi >= 18);
