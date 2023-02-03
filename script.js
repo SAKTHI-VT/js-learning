@@ -54,5 +54,8 @@ console.log(typeof 23);
 console.log(typeof true);
 console.log(typeof 2.15);
 
-abc='yes';
-console.log(abc);
+// abc='y';
+// console.log(abc);
+
+let a=359/500*100;
+console.log(a);  
