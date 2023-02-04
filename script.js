@@ -1,18 +1,18 @@
-//ALERT MESSAGE
+//         ALERT MESSAGE
 
 // let js='hello';
 // if(js==='hello') alert('hello');
 
-//MATHEMATICAL OPERATIONS
+//       MATHEMATICAL OPERATIONS
 
 // console.log(24+12-2); 
 
-//CONSOLE DISPLAY
+//           CONSOLE DISPLAY
  
 console.log("sakthi");
 // console.log(14);
 
-//VALUES &VARIABLES
+//           VALUES &VARIABLES
 
 // let fsname="sakthi"; 
 // let fs_name="SAKTHI";
@@ -26,25 +26,25 @@ console.log("sakthi");
 // console.log(myFirstjob);
 // console.log(myCurrentjob);
 
-//INCORRECT DECLARATION OF VARIABLE
+//     INCORRECT DECLARATION OF VARIABLE
 
 // let 3years=3;
 // let fs&name="sakthi";
 
-//DATATYPES
+//        DATATYPES
 
-//7 Primitive types
+//    7 Primitive types
 
-// Number 
+//    Number 
 // let age=21;
-// String
+//    String
 // let name='sakthi';
-// Boolean
+//    Boolean
 // let fullage=true;
-// Undefined
-// Null
-// Symbol
-// BigInt
+//    Undefined
+//    Null
+//    Symbol
+//    BigInt
 
 // let abc=true;
 // console.log(abc);
@@ -60,7 +60,7 @@ console.log("sakthi");
 // let a=359/500*100;
 // console.log(a);
 
-//DECLARING VARIABLES
+//                  DECLARING VARIABLES
 
 // let val=30;
 // val=21;
@@ -72,29 +72,35 @@ console.log("sakthi");
 // var job='student';
 // job='developer';
 
-//DECLARING VARIABLE WITHOUT let KEYWORD
+//          DECLARING VARIABLE WITHOUT let KEYWORD
 
 // fname='sakthi';
 // console.log(fname);
 
-// OPERATORS
+//             OPERATORS
+
+// const current = 2023;
+// const sakthi = current-2002;
+// const thiru = current-1973;
+// console.log(sakthi,thiru);
+
+// console.log(sakthi *2 , thiru/10, 2**3);
+
+//         ASSIGNMENT OPERATORS
+// let x=10+4; //14
+// x+=10; // x=x+10 => 24
+// x*=4; // x=x*4 => 96
+// x++;
+// x--;
+// console.log(x);
+
+//            COMPARISON OPERATORS
+// console.log(sakthi>thiru);
+// console.log(sakthi<thiru);
+// console.log(sakthi >= 18);
 
 const current = 2023;
 const sakthi = current-2002;
 const thiru = current-1973;
-console.log(sakthi,thiru);
 
-console.log(sakthi *2 , thiru/10, 2**3);
-
-// ASSIGNMENT OPERATORS
-let x=10+4; //14
-x+=10; // x=x+10 => 24
-x*=4; // x=x*4 => 96
-x++;
-x--;
-console.log(x);
-
-// COMPARISON OPERATORS
-console.log(sakthi>thiru);
-console.log(sakthi<thiru);
-console.log(sakthi >= 18);
+console.log(current - 2023 < current - 1973);
