@@ -103,4 +103,4 @@ const current = 2023;
 const sakthi = current-2002;
 const thiru = current-1973;
 
-console.log(current - 2023 < current - 1973);
+console.log(current - 2023 < current - 1973); 
