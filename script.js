@@ -99,8 +99,56 @@ console.log("sakthi");
 // console.log(sakthi<thiru);
 // console.log(sakthi >= 18);
 
-const current = 2023;
-const sakthi = current-2002;
-const thiru = current-1973;
+// const current = 2023;
+// const sakthi = current-2002;
+// const thiru = current-1973;
 
-console.log(current - 2023 < current - 1973); 
+// console.log(current - 2023 < current - 1973);
+
+// let x,y;
+// x=y=25-10-5; // x = y = 10
+// console.log(x,y);
+
+// const avg = sakthi + thiru / 2;
+// console.log(sakthi,thiru,avg);
+//console.log(avg);
+
+//  CODING CHALLENGE-1
+
+// const massmark =51;
+// const heightmark =5.2
+// const massvijay =71;
+// const heightvijay=3.5;
+// const bmimark =massmark /heightmark **2;
+// const bmivijay = massvijay /(heightvijay*heightvijay);
+// const markhighvijay = bmimark > bmivijay;
+
+// console.log(bmimark , bmivijay , markhighvijay);
+
+//     STRINGS And Template String
+
+const fname =  'sakthi';
+const job = 'student';
+const byear = 2002;
+const year = 2023;
+
+const sakthi = "I'm " + fname + ',a ' + (year-byear) + ' student!';
+console.log(sakthi);
+
+// above tab in keyboard `` tag is used to display string template......
+// $ symbol is used to add a variable to a template......
+
+const sakthinew = `I'm ${fname}, a ${year-byear} year old ${job}!`;
+
+console.log(sakthinew);
+
+// Using backQuotes....
+console.log(`regular string`);
+
+// String with multiple lines
+
+console.log('string with \n\multiple \n\lines')
+
+console.log(`string with
+multiple
+lines`);
