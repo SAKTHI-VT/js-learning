@@ -127,28 +127,51 @@ console.log("sakthi");
 
 //     STRINGS And Template String
 
-const fname =  'sakthi';
-const job = 'student';
-const byear = 2002;
-const year = 2023;
+// const fname =  'sakthi';
+// const job = 'student';
+// const byear = 2002;
+// const year = 2023;
 
-const sakthi = "I'm " + fname + ',a ' + (year-byear) + ' student!';
-console.log(sakthi);
+// const sakthi = "I'm " + fname + ',a ' + (year-byear) + ' student!';
+// console.log(sakthi);
 
-// above tab in keyboard `` tag is used to display string template......
+// above tab in keyboard `` tag is used to display string template....
 // $ symbol is used to add a variable to a template......
 
-const sakthinew = `I'm ${fname}, a ${year-byear} year old ${job}!`;
+// const sakthinew = `I'm ${fname}, a ${year-byear} year old ${job}!`;
 
-console.log(sakthinew);
+// console.log(sakthinew);
 
 // Using backQuotes....
-console.log(`regular string`);
+// console.log(`regular string`);
 
 // String with multiple lines
 
-console.log('string with \n\multiple \n\lines')
+// console.log('string with \n\multiple \n\lines')
 
-console.log(`string with
-multiple
-lines`);
+// console.log(`string with
+// multiple
+// lines`);
+
+// if else Statements
+
+const age = 15;
+// const isold = age>=18;
+
+if(age >= 18){
+    console.log('Can Apply License');
+}
+else{
+    const yrsleft = 18 - age;
+    console.log(`Too young wait for ${yrsleft} years:`);
+}
+
+const byear = 2002;
+let century;
+if(byear <= 2000){
+    century = 20;
+}
+else{
+    century = 21;
+}
+console.log(century);
