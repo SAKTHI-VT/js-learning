@@ -177,7 +177,7 @@ else{
 console.log(century);*/
 
 //    TYPE CONVERSION
-// const year = '2023';
+const year = '2023';
 
 //to print number
 // console.log(Number(year));
@@ -198,8 +198,19 @@ console.log(century);*/
 // console.log('23'-'10'-3);
 
 //  + opertaor combine the string
-console.log('23'+'10'+3);
+// console.log('23'+'10'+3);
 
-let n='1'+1;
-n=n-1;
-console.log(n);
+// let n='1'+1;
+// n=n-1;
+// console.log(n);
+
+//   BOOLEANS TYPE CONVERSION
+// TRUTHY AND FALSY VALUES
+
+// ONLY 5 FALSY VALUES IN JS -> 0,'',UNDEFINED,NULL,NaN
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('sakthi'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
