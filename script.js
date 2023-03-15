@@ -155,7 +155,7 @@ console.log("sakthi");
 
 // if else Statements
 
-const age = 15;
+/*const age = 15;
 // const isold = age>=18;
 
 if(age >= 18){
@@ -174,4 +174,32 @@ if(byear <= 2000){
 else{
     century = 21;
 }
-console.log(century);
+console.log(century);*/
+
+//    TYPE CONVERSION
+// const year = '2023';
+
+//to print number
+// console.log(Number(year));
+// console.log(year+18);
+
+//to add 
+// console.log(Number(year)+18);
+
+//Null
+// console.log(Number('sakthi'));
+// console.log(typeof(NaN));
+
+//to print string
+// console.log(String('sakthi'),20);
+
+//   TYPE COERCION
+// console.log('I am '+ 21 + ' years old.');
+// console.log('23'-'10'-3);
+
+//  + opertaor combine the string
+console.log('23'+'10'+3);
+
+let n='1'+1;
+n=n-1;
+console.log(n);
